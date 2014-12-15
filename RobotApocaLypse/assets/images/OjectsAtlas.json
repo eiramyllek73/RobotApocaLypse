@@ -1,0 +1,61 @@
+{
+"images": ["ObjectsAtlas.png"],
+"frames": [
+
+    [364, 204, 100, 41], 
+    [466, 204, 100, 41], 
+    [1013, 2, 101, 200], 
+    [1116, 2, 85, 200], 
+    [1288, 2, 74, 200], 
+    [1203, 2, 83, 200], 
+    [1438, 2, 69, 179], 
+    [1364, 2, 72, 200], 
+    [84, 2, 74, 203], 
+    [660, 2, 129, 200], 
+    [512, 2, 146, 200], 
+    [791, 2, 111, 200], 
+    [904, 2, 107, 200], 
+    [160, 2, 183, 200], 
+    [345, 2, 165, 200], 
+    [568, 204, 100, 41], 
+    [670, 204, 100, 41], 
+    [772, 204, 100, 40], 
+    [874, 204, 100, 40], 
+    [160, 204, 100, 42], 
+    [262, 204, 100, 42], 
+    [1509, 2, 63, 75], 
+    [1509, 79, 63, 75], 
+    [2, 2, 80, 225]
+],
+"animations": {
+    
+        "BackButton1":[0], 
+        "BackButton2":[1], 
+        "Enemy":[2], 
+        "Enemy1":[3], 
+        "Enemy2":[4], 
+        "Enemy3":[5], 
+        "Enemy4":[6], 
+        "Enemy5":[7], 
+        "Enemy6":[8], 
+        "Hero":[9], 
+        "Hero1":[10], 
+        "Hero2":[11], 
+        "Hero3":[12], 
+        "Hero4":[13], 
+        "Hero5":[14], 
+        "InfoButton1":[15], 
+        "InfoButton2":[16], 
+        "PlayButton1":[17], 
+        "PlayButton2":[18], 
+        "TryAgainButton1":[19], 
+        "TryAgainButton2":[20], 
+        "crystal":[21], 
+        "crystal1":[22], 
+        "ninjaBob":[23]
+},
+"texturepacker": [
+        "SmartUpdateHash: $TexturePacker:SmartUpdate:3e732b6439fcc7444d4826f08c17d27e:c7120c92645c0f2167e4da978b30b63c:6b55b9ac920478b80e840d4983aee3a4$",
+        "Created with TexturePacker (http://www.texturepacker.com) for EaselJS"
+]
+}

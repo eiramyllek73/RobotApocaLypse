@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <title>RobotApocaLypse</title>
+    <!-- CSS Section -->
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/foundation.min.css" rel="stylesheet" />
+    <link href="css/ratchet.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+</head>
+<body onload="preload()">
+
+        <div id="gameWrapper" class="left">
+            <canvas id="canvas" width="640" height="480"></canvas>
+        </div>
+ <!--
+    <footer class="row">
+        <div class="large-12 columns">
+            <div class="panel">
+                <h4>Social Media Anyone?</h4>
+                <div class="row">
+                    <div class="large-12 columns">
+                        <p>I'm all over the net like a dog on a bone.</p>
+                    </div>
+                    <div class="icon-bar large-8 columns">
+                        <a class="item" href="ca.linkedin.com/in/kellymcalpine/" title="LinkedIn"><img src="icons/fi-social-linkedin.svg" alt="Linkedin Icon" /></a>
+                        <a class="item" href="https://www.facebook.com/eiramyllek73" title="Facebook"><img src="icons/fi-social-facebook.svg" alt="Facebook Icon" /></a>
+                        <a class="item" href="https://twitter.com/Eiramyllek73?lang=en" title="Twitter"><img src="icons/fi-social-twitter.svg" alt="Twitter Icon" /></a>
+                        <a class="item" href="https://github.com/eiramyllek73" title="GitHub"><img src="icons/fi-social-github.svg" alt="Facebook Icon" /></a>
+                        <a class="item" href="http://instagram.com/eiramyllek73" title="Instagram"><img src="icons/fi-social-instagram.svg" alt="Instagram Icon" /></a>
+                        <a class="item" href="http://www.pinterest.com/eiramyllek73/" title="Pinterest"><img src="icons/fi-social-pinterest.svg" alt="Pinterest Icon" /></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="large-12 columns">
+                    <p>© Copyright Kelly M. McAlpine 2014</p>
+                    <p>~ The 2D Side-Scroller 'WANNA PIRANHA?' was created with support from <a href="https://github.com/tsiliopoulos/COMP2068-MailPilot-Build-2">tsiliopoulos</a> and <a href="http://www.createjs.com/#!/CreateJS">CREATEJS</a>~</p>
+                </div>
+                <div class="large-6 columns">
+                    <ul class="inline-list right">
+                        <li><a href="privacypolicy.html">Private Stash</a></li>
+                        <li><a href="terms_and_conditions.html">T and C</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+-->
+    <!-- JavaScript  Section -->
+    <script src="Scripts/lib/jquery-2.1.1.min.js"></script>
+    <script src="Scripts/lib/fastclick.js"></script>
+    <script src="Scripts/lib/ratchet.js"></script>
+
+
+    <!-- CreateJS Section -->
+    <script src="Scripts/lib/easeljs-0.7.1.min.js"></script>
+    <script src="Scripts/lib/tweenjs-0.5.1.min.js"></script>
+    <script src="Scripts/lib/soundjs-0.5.2.min.js"></script>
+    <script src="Scripts/lib/preloadjs-0.4.1.min.js"></script>
+
+    <!-- Game Code -->
+    <script src="Scripts/constants.js"></script>
+    <script src="Scripts/managers/asset.js"></script>
+    <script src="Scripts/objects/gameobject.js"></script>
+    <script src="Scripts/objects/cloud.js"></script>
+    <script src="Scripts/objects/island.js"></script>
+    <script src="Scripts/objects/ocean.js"></script>
+    <script src="Scripts/objects/plane.js"></script>
+    <script src="Scripts/objects/scoreboard.js"></script>
+    <script src="Scripts/objects/button.js"></script>
+    <script src="Scripts/objects/label.js"></script>
+    <script src="Scripts/objects/explosion.js"></script>
+    <script src="Scripts/objects/coin.js"></script>
+    <script src="Scripts/objects/stats.js"></script>
+    <script src="Scripts/objects/level.js"></script>
+    <script src="Scripts/objects/lightning.js"></script>
+    <script src="Scripts/objects/bullet.js"></script>
+    <script src="Scripts/objects/enemy.js"></script>
+    <script src="Scripts/managers/collision.js"></script>
+    <script src="Scripts/managers/bulletmanager.js"></script>
+    <script src="Scripts/states/menu.js"></script>
+    <script src="Scripts/states/play.js"></script>
+    <script src="Scripts/states/level2.js"></script>
+    <script src="Scripts/states/gameover.js"></script>
+    <script src="Scripts/states/instructions.js"></script>
+    <script src="Scripts/game.js"></script>
+</body>
+</html>
